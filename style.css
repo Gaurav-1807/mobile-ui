@@ -1,0 +1,148 @@
+#ui{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+form{
+    padding: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.333);
+    text-align: center;
+    
+    border: 3px solid rgba(66, 135, 245) ;
+    border-radius: 10px;
+}
+form input{
+   display: block;
+   width: 90%;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    background-color:  rgba(66, 135, 245, 0.793);
+    border: 2px solid rgb(36, 114, 240);
+}
+input::placeholder{
+    color: white;
+}
+.profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    font-size: 50px;
+    line-height: 100px;
+    margin: 0 auto;
+    background-color: rgba(66, 135, 245);
+    color: white;
+}
+form h1{
+    color:  rgba(66, 135, 245);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.submit{
+    display: block;
+    margin:  20px auto;
+    /* padding: 15px 30px; */
+    width: 120px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgba(66, 135, 245);
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+    border: 1px solid rgba(66, 135, 245);
+    
+}
+.submit:hover{
+    background-color: transparent;
+    border: 1px solid rgba(66, 135, 245) ;
+    color: rgba(66, 135, 245);
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.maindiv img{
+    height: 200px;
+    margin: 10px;
+}
+.maindiv{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.333);
+    text-align: center;
+    padding: 10px;
+    border: 3px solid rgba(66, 135, 245) ;
+    border-radius: 10px;
+}
+.maindiv h3{
+    color: rgba(66, 135, 245);
+}
+.maindiv h3 sup{
+    color: rgba(66, 135, 245);
+}
+.update{
+    display: inline-block;
+    width: 95%;
+    background-color: rgba(66, 135, 245);
+    border: 1px solid rgba(66, 135, 245) ;
+    padding: 10px 0px;
+    color: white;
+   border: none;
+   border-radius: 10px;
+   margin: 10px 10px;
+   font-size: 15px;
+   font-weight: bold;
+   cursor: pointer;
+    transition: all 0.5s;
+}
+.update:hover{
+    background-color: transparent;
+    border: 1px solid rgba(66, 135, 245) ;
+    color: rgba(66, 135, 245);
+}
+#btns{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+#btns button{
+    padding: 10px 20px;
+    background-color:  rgba(66, 135, 245);
+    color: white;
+    transition: all 0.5s;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color:  rgba(66, 135, 245);
+}
+#btns button:hover{
+    background-color: transparent;
+    border: 1px solid rgba(66, 135, 245) ;
+    color: rgba(66, 135, 245);
+}
+.cardbody{
+    border: 1px solid rgba(66, 135, 245);
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search input{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    background-color:  rgba(66, 135, 245, 0.793);
+    border: 2px solid rgb(36, 114, 240);
+}
+.search{
+    text-align: center;
+}
+.search button{
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    background-color:  rgba(66, 135, 245, 0.793);
+    border: 2px solid rgb(36, 114, 240);
+}
